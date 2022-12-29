@@ -85,7 +85,8 @@ html, body {
 }
 
 body {
-   background: #19191b;
+   <!--background: #19191b;-->
+   background: #79C288;
    font-family: "metropolis-regular", sans-serif;
    font-size: 1.6rem;
    font-style: normal;
