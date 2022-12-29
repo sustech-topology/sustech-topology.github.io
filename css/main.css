@@ -85,15 +85,13 @@ html, body {
 }
 
 body {
-<!--   background: #19191b;-->
-   background: #6aa84f;
+   background: #19191b;
    font-family: "metropolis-regular", sans-serif;
    font-size: 1.6rem;
    font-style: normal;
    font-weight: normal;
    line-height: 1.875;
-<!--   color: #656565;-->
-   color: #d9ead3;   
+   color: #656565;   
    margin: 0;
    padding: 0;
 }
