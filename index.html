@@ -35,6 +35,27 @@
 //-->
 </script>
 
+     <!-- Katex
+    ================================================== -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>    
 
 <body id="top">
 
@@ -123,7 +144,7 @@
 <article class="row format-standard">
 
     
-<h3>Talks in Spring 2023 (mostly Mondays 4:20–5:10)</h3>
+<h3>Recent and Upcoming Talks</h3>
 
 <!--
     <p>
@@ -135,6 +156,24 @@
         </div>
     </p>
 -->
+
+    <p>
+        Sep 21, '23 (Colloquium, Thursday, 4:30–5:30 pm, M1001), 
+        <b>Guozhen Wang</b> (Fudan University), 
+        <a onclick="toggle_visibility('23-2');"><i>Structures and computations in the motivic stable homotopy categories</i></a><br />
+        <div id="23-2" class="toshow" style="display:none">
+            Motivic homotopy theory is an application of abstract notions of homotopy in the world of algebraic varieties.  It turns out that motivic homotopy theory gives us powerful tools in understanding classical homotopy theory.  In this talk, we will show how structures in the motivic stable homotopy categories can be used to compute both classical and motivic stable homotopy groups.
+        </div>
+    </p>
+
+    <p>
+        Aug 9, '23 (Wednesday, 5–6 pm, M5024), 
+        <b>Jiaqi Fu</b> (Paul Sabatier University), 
+        <a onclick="toggle_visibility('23-1');"><i>A derived bridge between Lie algebroids and foliations</i></a><br />
+        <div id="23-1" class="toshow" style="display:none">
+            Lie algebroid and algebraic foliation are two natural algebraic analogues of foliation in differential geometry, which are nevertheless not equivalent without smooth condition.  In this project, we disregard this disharmony by considering their derived analogues, and use a refined Koszul duality to establish an equivalence (of sub-$\infty$-categories) between <i>partition Lie algebroids</i> and <i>infinitesimal derived foliations</i>.
+        </div>
+    </p>
 
 
 <br /><br /><br />
