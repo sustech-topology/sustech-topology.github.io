@@ -85,9 +85,12 @@
 
                     <ul class="header__nav">
                         <li><a href="/" title="" target="_blank">Home</a></li>
+                        <!--
                         <li><a href="#A" title="">About</a></li>
                         <li><a href="#P" title="">Presentations and Discussions</a></li>
+                        -->
                         <li><a href="/grad" title="" target="_blank">Graduate Seminar</a></li>
+                        <li><a href="25" title="" target="_blank">2025</a></li>
                         <li><a href="24" title="" target="_blank">2024</a></li>
                         <li><a href="22-23" title="" target="_blank">2023</a></li>
                         <li><a href="21-22" title="" target="_blank">2022</a></li>
@@ -109,7 +112,7 @@
                 <div class="featured">
 
                     <div class="featured__column featured__column--big">
-                        <div class="entry" style="background-image:url('/acts/25/emergence.jpg');">
+                        <div class="entry" style="background-image:url('/acts/acts.jpeg');">
                             
 
 
@@ -148,8 +151,9 @@
 <article class="row format-standard">
 
 
+<!--
 <h3><a id="A"></a>About</h3>
-            
+
     <p>
         This semester, after weekly writing sessions on Wednesdays at 9 am till early April, our discussion resumes in May.  We meet <b>Thursdays at 4:20 pm in M5024</b>.  
     </p>
@@ -157,13 +161,13 @@
 
 <h3><a id="P"></a>Presentations and Discussions</h3>
 
-<!--
+
     <p>
-        MMM DD, '25, 
+        MMM DD, '26, 
         <b>Speaker</b>, 
-        <a onclick="toggle_visibility('25-1');">
+        <a onclick="toggle_visibility('1');">
         <i>Title</i></a><br />
-        <div id="25-1" class="toshow" style="display:none">
+        <div id="1" class="toshow" style="display:none">
             <li>
                 Abstract/outline
             </li>
@@ -173,85 +177,7 @@
     </p>
 -->
 
-    <p>
-        May 8, '25, 
-        <b>Yifei Zhu</b>, 
-        <i>Where we are now, and what's next</i><br />
-    </p>
-
-    <p>
-        May 15, '25, 
-        <b>Zhiwang Yu</b>, 
-        <a onclick="toggle_visibility('25-1');"><i>Methods of algebraic topology in the study of neural network architecture</i></a><br />
-        <div id="25-1" class="toshow" style="display:none">
-            <ul>
-                <li>
-                    In this week's seminar, we will revisit the application of topological convolutional kernels in neural networks.  We will explore the meaning of convolutional kernels, the differences between spectrograms and ordinary images, and the construction of convolutional kernels 
-                    tailored for speech signals.  Additionally, we will discuss some existing challenges that require further improvement,  as well as potential directions for future work.  
-                </li>
-                
-                <li><a href="/acts/25/0515-Yu.pdf" target="_blank">Slides</a></li>
-            </ul>
-        </div>
-    </p>
-
-    <p>
-        May 22, '25 <i>in M616</i>, 
-        <b>Haiyu Zhang</b>, 
-        <a onclick="toggle_visibility('25-2');"><i>Understanding neural networks: A perspective on representability and interpretability</i></a><br />
-        <div id="25-2" class="toshow" style="display:none">
-            <ul>
-                <li>
-                    In this talk, I will review the work on neural network approximation theory, explaining the roles of depth and width in function approximation and representability of different architectures（MLP, RNN, Transformer, etc.).  Additionally, I'll present some results of 
-                    visualizing the training process of neural networks from geometric and topological perspectives, and discuss the grokking phenomenon.  
-                </li>
-
-                <li><a href="/acts/25/0522-Zhang.pdf" target="_blank">Slides</a></li>
-            </ul>
-        </div>
-    </p>
-
-    <p>
-        May 29, '25, 
-        <b>Zeyang Ding</b>, 
-        <a onclick="toggle_visibility('25-3');">
-        <i>An application of topological data analysis to natural language processing</i></a><br />
-        <div id="25-3" class="toshow" style="display:none">
-            <ul>
-                <li>
-                    In this talk, I will introduce a novel detection framework based on TDA by <a href="https://doi.org/10.18653/v1/2021.emnlp-main.50" target="_blank">Kushnareva et al., 2021</a>.  I will begin by showing how attention maps from Transformer-based language models can be 
-                    represented as weighted bipartite graphs and analyzed through TDA to capture the surface‐level and structural patterns that distinguish human‐written from machine‐generated texts.  The framework extracts three interpretable sets of topological features – standard graph 
-                    invariants (connected components, cycles, edge counts), persistence‐based barcodes, and distances to canonical attention patterns – from frozen BERT attention heads.  A simple linear classifier trained on these features outperforms count‐ and neural‐based baselines by up to 
-                    10% across social‐media, news, and product‐review domains, achieving performance on par with a fully fine‐tuned BERT model.  Furthermore, I will show that the TDA‐based detector maintains superior robustness when applied to texts generated by larger, unseen GPT‐style 
-                    models, and probing analyses reveal its sensitivity to key surface and syntactic cues.  Finally, I will also discuss how this idea can be employed in speech data.  
-                </li>
-
-                <li><a href="/acts/25/0529-Ding.pdf" target="_blank">Slides</a></li>
-                
-                <li>
-                    Related references:<br>
-                    Tulchinskii et al., <a href="https://doi.org/10.21437/Interspeech.2023-1861" target="_blank">Topological data analysis for speech processing</a>, 2023<br>
-                    Barannikov et al., <a href="https://proceedings.mlr.press/v162/barannikov22a.html" target="_blank">Representation topology divergence: A method for comparing neural network representations</a>, 2022
-                </li>
-            </ul>
-        </div>
-    </p>
-
-    <p>
-        Jun 5, '25 <i>at 9 am</i>, 
-        <b>Pingyao Feng</b>, 
-        <a onclick="toggle_visibility('25-4');">
-        <i>Topological methods for signal variation detection</i></a><br />
-        <div id="25-4" class="toshow" style="display:none"> 
-            <ul>
-                <li>
-                    We will discuss different kinds of “variations” in signals, furthermore how topological methods can distinguish those variations, and possible future directions. 
-                </li>
-
-                <li><a href="/acts/25/0605-Feng.pdf" target="_blank">Slides</a></li>
-            </ul>
-        </div>
-    </p>
+    
 
 
 <br /><br /><br />
@@ -269,12 +195,14 @@
             <div class="row">
                 <div class="col-full">
                     <div class="s-footer__copyright">
-                        <span>© Copyright Philosophy 2025</span> 
+                        <span>© Copyright Philosophy 2026</span> 
                         <span>Site Template by <a href="https://colorlib.com/" target="_blank">Colorlib</a></span>
+                        <!--
                         <span>
                             Header image created by Haiyu Zhang on emergence of cycles in the space of weight vectors during a training process, which reflects the evolving 
                             topology of a convolutional neural network, after Carlsson and Gabrielsson 
                         </span>
+                        -->
                     </div>
 
                     <div class="go-top">
