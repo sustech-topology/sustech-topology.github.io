@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>SUSTech Topology</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/vendor.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/pace.min.js"></script>
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+
+<!-- Katex
+    ================================================== -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script> 
+
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                       SUSTech Topology 
+                </div> <!-- end header__logo -->
+
+           
+
+         
+
+
+               <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+ 
+                    <!--<h2 class="header__nav-heading h6">Close after Select</h2>-->
+
+                    <ul class="header__nav">
+                        <li><a href="/" title="" target="_blank">Home</a></li>
+                        <li><a href="#A" title="">About</a></li>
+                        <li><a href="#S" title="">Schedule</a></li>
+                        <li><a href="#R" title="">References and Links</a></li>
+                        <li><a href="#P" title="">Previous Semesters</a></li>
+                        <li><a href="/grad" title="" target="_blank">Graduate Seminar</a></li>
+                        <li><a href="/undergrad" title="" target="_blank">Undergraduate Seminar</a></li>
+                        <li></li>
+                        
+                    </ul> 
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                            
+                    
+                </nav>  
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+
+        <div class="pageheader-content row">
+            <div class="col-full">
+
+                <div class="featured">
+
+                    <div class="featured__column featured__column--big">
+                        <div class="entry" style="background-image:url('26/auditory.jpg');">
+                            
+
+
+                            <div class="entry__content">
+
+                                <h1><a>Applied and Computational Topology Seminar</a></h1>
+
+               
+
+                                    <ul class="entry__meta">
+                                        <li>Southern University of Science and Technology</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+                            
+                        </div> <!-- end entry -->
+                    </div> <!-- end featured__big -->
+
+
+
+
+                 
+                </div> <!-- end featured -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end pageheader-content row -->
+
+    </section> <!-- end s-pageheader -->
+
+
+
+ <!-- s-content
+    ================================================== -->
+    <section class="s-content s-content--narrow s-content--no-padding-bottom">
+
+<article class="row format-standard">
+
+
+
+<h3><a id="A"></a>About</h3>
+
+    <p>
+        Following the practice of <a href="https://yifeizhu.github.io/341/" target="_blank">MA341</a> last fall, 
+        this semester, we meet on <b>Thursdays 2–3</b> in <b>M5024</b>.  
+    </p>
+
+
+<h3><a id="S"></a>Schedule</h3>
+
+<!--
+    <p>
+        MMM DD, '26, 
+        <b>Speaker</b>, 
+        <a onclick="toggle_visibility('#');">
+        <i>Title</i></a><br />
+        <div id="#" class="toshow" style="display:none">
+            <li>
+                Abstract/outline
+            </li>
+            
+            <li><a href="25/MMDD-Surname.pdf" target="_blank">Notes/slides</a></li>
+        </div>
+    </p>
+-->
+
+    <p>
+        Mar 5, '26, 
+        <b>Yifei Zhu</b>, 
+        <a onclick="toggle_visibility('1');">
+        <i>Topological deep learning for speech recognition: an overview</i></a><br />
+        <div id="1" class="toshow" style="display:none">
+            <ul>
+                <li>Pingyao Feng et al., <a href="https://yifeizhu.github.io/tail.pdf" target="_blank">Topology-enhanced machine learning for consonant recognition</a></li>
+
+                <li>Zhiwang Yu et al., <a href="https://yifeizhu.github.io/topker.pdf" target="_blank">Topology-informed convolution kernels for speech recognition tasks</a></li>
+
+                <li><a href="https://yifeizhu.github.io/tsimf.pdf" target="_blank">Slides</a></li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        Mar 12, '26, 
+        <b>Yifei Zhu</b>, 
+        <a onclick="toggle_visibility('2');">
+        <i>Topological deep learning for speech recognition, II</i></a><br />
+        <div id="2" class="toshow" style="display:none">
+            <ul>
+                <li>TopCap: topological features for machine learning</li>
+
+                <li>TopNN: topology-enhanced neural network</li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        Mar 19, '26 (<b style="color:Tomato;">M714, note special room</b>), 
+        <b>Yifei Zhu</b>, 
+        <a onclick="toggle_visibility('3');">
+        <i>Topological deep learning for speech recognition, III</i></a><br />
+        <div id="3" class="toshow" style="display:none">
+            <ul>
+                <li>TopKer: topology-informed convolution kernel</li>
+                
+                <li>A recent <a href="/acts/26/Sheng.pdf" target="_blank">talk</a> by Alex Sheng on topological CNN</li>
+                
+                <li><a href="https://github.com/sustech-topology/TopML" target="_blank">Code repository</a> for TopCap and TopNN</li>
+                
+                <li><a href="https://github.com/ZhiwangYu/TDLforSpeechRecognition" target="_blank">Code repository</a> for TopKer</li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        Mar 26, '26, 
+        <b>Yiran Chen</b>, 
+        <a onclick="toggle_visibility('4');">
+        <i>Topology-aware Knowledge Distillation in Object Detection</i></a><br />
+        <div id="4" class="toshow" style="display:none">
+            In this talk, we explore the use of Topological Data Analysis in object detection, with a particular focus on separating adjacent objects that may otherwise be mistaken as a single target. The main idea is to transfer the teacher model’s ability, learned from clean data, to 
+            distinguish connected objects into a student model trained on noisy data. To achieve this, we design a specialized loss function that helps the student learn this separation capability during knowledge distillation.
+        </div>
+    </p>
+
+    <p>
+        Apr 9, '26,
+        <b>Xiaoyun Liu</b>, 
+        <a onclick="toggle_visibility('5');">
+        <i>Neural network adversarial perturbation analysis and detection: A topological view</i></a><br />
+        <div id="5" class="toshow" style="display:none">
+            
+        </div>
+    </p>
+
+    <p>
+        Apr 16, '26,
+        <b>Xiaolong Han</b>, 
+        <a onclick="toggle_visibility('6');">
+        <i>Exploring Fermat Distance, Ideas and Early Experiments</i></a><br />
+        <div id="6" class="toshow" style="display:none">
+            <ul>
+                <li>
+                    Coming from physics, Fermat distance is used to model the principle that a path tends to minimize travel “cost” rather than ordinary geometric length, just as light travels along the path of least time instead of the shortest Euclidean route. In this talk I will briefly 
+                    introduce the intuitive idea of Fermat distance and some attempts I made with it.
+                </li>
+
+                <li>Hai-Vy Nguyen et al., <a href="https://doi.org/10.52202/079017-0951" target="_blank">Combining statistical depth and Fermat distance for uncertainty quantification</a></li>
+
+                <li>Ximena Fernández et al., <a href="https://www.jmlr.org/papers/v24/21-1044.html" target="_blank">Intrinsic persistent homology via density-based metric learning</a></li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        Apr 23, '26,
+        <b>Dongyuan Deng</b>, 
+        <a onclick="toggle_visibility('7');">
+        <i>The Euler Characteristic Transform and Its Applications to Deep Learning</i></a><br />
+        <div id="7" class="toshow" style="display:none">
+            <ul>
+                <li>I would like to introduce some combinations between the ECT and some basic models in deep learning. The experiments presented in this talk will primarily focus on image classification tasks.</a></li>
+                 <li><a href="/acts/26/0423-Deng.pdf" target="_blank">Slides</a></li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        May 7, '26,
+        <b>Yuhe Qin</b>, 
+        <a onclick="toggle_visibility('8');">
+        <i>Topological Feature Embedding and Representation for Machine Learning on 3D Point Clouds</i></a><br />
+        <div id="8" class="toshow" style="display:none">
+            <ul>
+                <li>This talk introduces how topological features can support machine learning on 3D point clouds. Since point clouds lack explicit connectivity and global structure, persistent homology is used to extract multi-scale information such as connected components and loops. The talk compares several ways to represent and integrate topology into point cloud models, and presents an ablation study to evaluate the role of topological information.
+                 <li><a href="/acts/26/0507-Qin.pdf" target="_blank">Slides</a></li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        May 14, '26,
+        <b>Runfeng Yang</b>, 
+        <a onclick="toggle_visibility('9');">
+        <i>Subsampling and Landmarking Strategies for Persistent Homology</i></a><br />
+        <div id="9" class="toshow" style="display:none">
+            We study the effect of landmark subsampling on the preservation of topological structure in persistent homology. To quantify fidelity, we compare persistence diagrams of full datasets and their sketches using Wasserstein distance, assisted by a geometric-feature-based metric. We evaluate several subsampling methods on synthetic datasets with known topology and a natural image dataset exhibiting Klein bottle structure. Experiments examine performance under varying compression levels and noise, as well as the potential denoising effect of subsampling.
+        </div>
+    </p>
+
+    <p>
+        May 15, '26, 4:30–6:00 (<b>special date and time</b>), 
+        <b>Yifei Zhu</b>, 
+        <a onclick="toggle_visibility('10');">
+        <i>Topological analysis of visual and auditory perception</i></a><br />
+        <div id="10" class="toshow" style="display:none">
+            <ul>
+                <li>
+                    This will be an online presentation for and meeting with the <a href="https://www.visualplasticitylab.org/" target="_blank">Visual Plasticity Lab</a> at University College London.  <a href="https://doi.org/10.1167/8.8.11" target="_blank">Here</a> is a main reference.  A 
+                    link for the meeting is available upon request.  
+                </li>
+
+                <li><a href="https://yifeizhu.github.io/visual.pdf" target="_blank">Slides</a></li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        May 21, '26,
+        <b>Shao Shi</b>, 
+        <a onclick="toggle_visibility('11');">
+        <i>Topology at Scale: Probabilistic Persistent Homology for Peak Extraction in Archive-Scale Mass Spectrometry</i></a><br />
+        <div id="11" class="toshow" style="display:none">
+            <ul>
+                <li>
+                    Online mass spectrometry generates archive-scale 1D signal data, where extracting genuine peaks remains a computational bottleneck. Traditional chemistry algorithms fail to resolve overlapping components, while standard Topological Data Analysis (TDA) uses rigid persistence 
+                    barcodes that blindly discard physically genuine, yet mathematically weak, topological features. This talk presents a scalable framework bridging persistent homology with physical Signal-to-Noise Ratio (SNR). Using vectorized 1D Continuous Wavelet Transforms, we map massive 
+                    raw signals into 2D scale-space manifolds, computing 0-dimensional persistence via the Elder Rule. By introducing "Probabilistic Topological Persistence," we map relative topological isolation and physical SNR into a continuous probability space. Here, high physical SNR 
+                    mathematically "rescues" weak topological micro-valleys, enabling sub-FWHM peak resolution without amplifying noise artifacts.
+                </li>
+
+                <li><a href="/acts/26/0521-Shi.pdf" target="_blank">Slides</a></li>
+        </div>
+    </p>
+
+<h3><a id="R"></a>References and Links</h3>
+
+<ul>
+    <li>
+        Topological time series analysis: 
+        <ol>
+            <li>
+                Xiaolong Han, <a target="_blank" href="https://yifeizhu.github.io/341/report/hanxl.pdf">Replication and application of topological music analysis to Baroque concertos</a>
+            </li>
+            
+            <li>
+                Luis Suarez Salas, Jose A. Perea, <a href="https://arxiv.org/abs/2603.04570" target="_blank">Estimation of persistence diagrams via the Three Gap Theorem</a>
+            </li>
+        </ol>
+    </li>
+    
+    <li>
+        (Topological) deep learning: 
+        <ol>
+            <li>
+                Xiaoyun Liu, <a target="_blank" href="https://yifeizhu.github.io/341/report/liuxy.pdf">Characterizing and detecting adversarial attacks using local intrinsic dimensionality</a>
+            </li>
+            
+            <li>
+                Xin et al., <a href="https://jackal092927.github.io/publication/TopInG_ICML2025" target="_blank">TopInG: Topologically interpretable graph learning via persistent rationale filtration</a>
+            </li>
+            
+            <li>
+                Konstantinos Spiliopoulos, Richard Sowers, Justin Sirignano, <a href="https://mathdl.github.io/" target="_blank">Mathematical foundations of deep learning models and algorithms</a>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Persistent homology and its applications: 
+        <ol>
+            <li>
+                Gurjeet Singh et al., <a href="https://doi.org/10.1167/8.8.11" target="_blank">Topological analysis of population activity in visual cortex</a> 
+            </li>
+            
+            <li>
+                Yu Chen, Hongwei Lin, <a href="https://doi.org/10.1016/j.cad.2025.103934" target="_blank">Robust model reconstruction based on the topological understanding of point clouds using persistent homology</a> 
+                (<a href="/acts/26/Chen–Lin.pdf" target="_blank">Slides</a>) 
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        More: 
+        <ol>
+            <li><a href="https://ailab.tencent.com/ailab/en/index" target="_blank">Tencent AI Lab</a></li>
+            
+            <li><a href="https://www.visualplasticitylab.org/" target="_blank">Visual Plasticity Lab</a> at University College London</li>
+        </ol>
+    </li>
+</ul>
+
+
+<h3><a id="P"></a>Previous Semesters</h3>
+    <ul>
+        <li><a href="25" target="_blank">2025</a></li>
+        <li><a href="24" target="_blank">2024</a></li>
+        <li><a href="22-23" target="_blank">2023</a></li>
+        <li><a href="21-22" target="_blank">2022</a></li>
+        <li><a href="20-21" target="_blank">2020&ndash;21</a></li>
+    </ul>
+
+
+
+<br /><br /><br />
+<p></p>
+</article>
+
+
+   
+
+
+    </section> <!-- s-content -->
+
+
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Philosophy 2026</span> 
+                        <span>Site Template by <a href="https://colorlib.com/" target="_blank">Colorlib</a></span>
+                        <span>Cover illustration of human auditory perception from the Internet</span>
+                        <!--
+                        <span>Cover art by Feng Xiao-Min, Composition N°28.8.25</span>
+                        -->
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
